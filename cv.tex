@@ -1,0 +1,113 @@
+%% LyX 2.0.0 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,french]{moderncv}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\setlength{\parskip}{\medskipamount}
+\usepackage{svg}
+\setlength{\parindent}{0pt}
+\usepackage[top=0.9in, bottom=0.9in, left=0.9in, right=0.9in]{geometry}
+
+\makeatletter
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\newcommand{\noun}[1]{\textsc{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\moderncvtheme[orange]{classic}
+% possible themes are "classic" and "casual"
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\usepackage{graphics}
+%\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% required
+\vspace{-0.5cm}
+\firstname{Antoine}
+% required
+\familyname{Liutkus}
+\address{24 rue du couvent}{34560 Montbazin, France}
+\mobile{+33662227080}
+\extrainfo{born 1981, French}
+
+
+% optional, remove the line if not wanted
+\title{Researcher, Inria }
+
+% optional
+\email{antoine.liutkus@inria.fr}
+
+% optional
+% \photo[height]{name}
+% 'height' is the height the picture is resized to
+% 'name' is the name of the picture file
+\photo[80pt]{antoine}
+
+% optional
+\quote{}
+
+\makeatother
+
+\usepackage{babel}
+\addto\extrasfrench{%
+   \providecommand{\og}{\leavevmode\flqq~}
+   \providecommand{\fg}{\ifdim\lastskip>\z@\unskip\fi~\frqq}
+}
+
+\begin{document}
+\maketitle
+\vspace{-2.5cm}
+\section{Research activities}
+\cvitem{Theory}
+{The convergence of learning, processing and probability\begin{itemize}
+\item[$\bullet~$] \emph{Deep learning}
+\item[$\bullet~$] \emph{Stochastic processes and Bayesian probability}
+\item[$\bullet~$] \emph{Optimal transport}
+\item[$\bullet~$] \emph{Algebraic methods: tensor factorizations}
+\end{itemize}}
+\vspace{-0.5cm}
+\cvitem{Applications}
+{Machine learning for audio\begin{itemize}
+\item[$\bullet~$] \emph{Music source separation and enhancement}
+\item[$\bullet~$] \emph{Multichannel robust filter design}
+\item[$\bullet~$] \emph{Source localization}
+\item[$\bullet~$] \emph{Compressed sensing}
+\end{itemize}}
+\vspace{-0.5cm}
+\cvitem{Publications}
+{\href{https://scholar.google.fr/citations?hl=fr&user=0s7V4FAAAAAJ}{\includegraphics[width=15pt]{linksolid.png}}}
+\vspace{-0.3cm}
+\section{Positions}
+\cventry{2014--today}{Researcher}{Inria, France}{}{}{Source separation, deep learning, optimal transport}
+\cventry{2013}{Postdoc}{Institut Langevin, ESPCI, Paris, France}{}{}{Compressed sensing, sparsity, optics in turbid media}
+\cventry{2010--2012}{Ph.D}{Telecom Paristech, CNRS LTCI, Paris, France}{}{}{Audio coding and separation}
+\cventry{2010--2012}{Lecturer in signal processing}{Engineering schools \textit{ESME Sudria, ISEP, Telecom ParisTech}, Paris, France}{}{}{}
+\cventry{2007--2010}{Research engineer}{Audionamix, Paris, France}{}{}{Music unmixing and repurposing of legacy recordings}
+
+
+\section{Education}
+
+\cventry{2010--2012}{Ph.D}{Informed Source Separation}{Supervised by Ga\"el Richard and Roland Badeau}{Telecom ParisTech, France}{}
+
+\cventry{2004--2005}{Master of sciences}{Acoustics \& Signal Processing}{IRCAM, Paris}{}{}
+
+\cventry{1999--2004}{Engineering school}{Telecom ParisTech, Paris, France}{}{}{}
+
+\section{Scientific service}
+
+\cvitem{Commitees}
+{\vspace{-0.4cm}\begin{itemize}
+\item[$\bullet~$]  IEEE Tech. Committee on Audio \& Acoustics (2016-2021)
+\item[$\bullet~$]  Separation Eval. Campaign (SiSEC) general chair (2016-2018)
+\end{itemize}}
+\cvitem{Reviewing}
+{\vspace{-0.4cm}\begin{itemize}
+\item[$\bullet~$] journals : \emph{IEEE SPL, TASLP, TSP, SPM, Elsevier SP, DSP}
+\item[$\bullet~$] conferences: \emph{ICASSP, EUSIPCO, ISMIR, WASPAA, LVA-ICA ...}
+\end{itemize}}
+\vspace{-0.7cm}
+
+
+\end{document}
