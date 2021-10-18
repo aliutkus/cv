@@ -2,11 +2,12 @@
 %% Do not edit unless you really know what you are doing.
 \documentclass[12pt,french]{moderncv}
 \usepackage[T1]{fontenc}
-\usepackage[latin9]{inputenc}
+\usepackage[utf8]{inputenc}
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{2}
 \setlength{\parskip}{\medskipamount}
 \usepackage{svg}
+\usepackage{eurosym}
 \setlength{\parindent}{0pt}
 \usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
 
@@ -34,7 +35,7 @@
 
 
 % optional, remove the line if not wanted
-\title{Researcher in music AI}
+\title{Permanent researcher, Inria}
 
 % optional
 \email{antoine.liutkus@inria.fr}
@@ -58,71 +59,299 @@
 
 \begin{document}
 \maketitle
+
+% EDUCATION
 \vspace{-2.5cm}
-\section{Research interests}
-\cvitem{Applications}
-{Machine learning for a new music experience\begin{itemize}
-\item[$\bullet~$] \emph{Audio and Music processing: separation, denoising, enhancement}
-\item[$\bullet~$] \emph{Music generation, automatic mixing, mashups}
-\end{itemize}}
-\vspace{-0.6cm}
-\cvitem{Theory}
-{The convergence of learning, processing and probability\begin{itemize}
-\item[$\bullet~$] \emph{Deep learning, machine learning, kernel methods}
-\item[$\bullet~$] \emph{Stochastic processes and Bayesian probability}
-\item[$\bullet~$] \emph{Neural differential equations, optimal transport, flows}
-\end{itemize}}
-\vspace{-0.6cm}
-\cvitem{Applications}
-{Machine learning for audio and time series\begin{itemize}
-   \item[$\bullet~$] \emph{Regression, forecasting, inference for time series}
-   \item[$\bullet~$] \emph{Audio/Music processing}
-\end{itemize}}
-\vspace{-0.6cm}
-\cvitem{Impact}
-{Team-work and community service\begin{itemize}
-   \item[$\bullet~$] \emph{Research proposals, 100+ collaborators, tech. committees, reporting}
-   \item[$\bullet~$] \emph{International-class datasets and evaluation campaigns}
-   \item[$\bullet~$] \emph{Effective software implementations (PyTorch, Tensorflow)}
-\end{itemize}}
-\vspace{-0.6cm}
-\cvitem{Publications}
-{\textbf{H-index 31.} 15 journals, 60 confs, 4 books chapters (Google scholar \href{https://scholar.google.fr/citations?hl=fr&user=0s7V4FAAAAAJ}{\includegraphics[width=15pt]{linksolid.png})}}
-\vspace{-0.3cm}
-\section{Positions}
-\cventry{2014--today}{Researcher}{Inria, France}{}{}{Signal processing, deep learning, scientific advising \& project management}
-\cventry{2010--today}{Lecturer}{Artificial Intelligence, deep learning, audio processing}{}{}{
-   \textbullet\hspace{1em}Engineering schools (\textit{Telecom ParisTech, ESME Sudria, ISEP}, France)\\
-   \textbullet\hspace{1em}Continuous training (\textit{ORSYS, Datalchemy}, France)\\
-   \textbullet\hspace{1em}Conference tutorials (\textit{ICASSP, ISMIR, EUSIPCO})}
-   {}
-
-\cventry{2013}{Postdoc}{Institut Langevin, ESPCI, Paris, France}{}{}{Compressed sensing, sparsity, optics in turbid media}
-\cventry{2010--2012}{Ph.D}{Telecom ParisTech, Institut Polytechnique de Paris, France}{}{}{Information theory, probability, audio coding and separation}
-\cventry{2007--2010}{Research engineer}{Audionamix, Paris, France}{}{}{Prototyping, patents, audio \& music processing}
-\vspace{-0.3cm}
 \section{Education}
-
+\cventry{2022}{HDR}{Habilitation à diriger des recherches}{Université de Montpellier}{France}{}{}
 \cventry{2010--2012}{Ph.D}{Telecom ParisTech, Institut Polytechnique de Paris}{}{}{}{}
 \cventry{2004--2005}{Master of sciences}{Acoustics \& Signal Processing}{IRCAM, Paris}{}{}
-
 \cventry{1999--2004}{Engineering school}{Telecom Paris, Paris, France}{}{}{}
 
+% POSITIONS
+\vspace{-0.3cm}
+\section{Positions}
+\cventry{2017--today}{Experienced Researcher}{Inria, Montpellier, France}
+{}{}{Stochastic multivariate processes, deep learning, heritage preservation, science for art.}
+\cventry{2014--2017}{Researcher}{Inria, Nancy, France}
+{}{}{Probabilistic modeling, robust estimation, music processing.}
+\cventry{2013}{Postdoc}{Institut Langevin, ESPCI, Paris, France}{}{}{Compressed sensing, sparsity, optics in turbid media}
+\cventry{2010--2012}{Ph.D}{Telecom ParisTech, Institut Polytechnique de Paris, France}{}{}{Information theory, probability, audio compression and separation}
+\cventry{2007--2010}{Research engineer}{Audionamix, Paris, France}{}{}{Prototyping, patents, audio \& music processing}
+
+
+% Teaching
+\vspace{-0.3cm}
+\section{Teaching}
+\cventry{2019--today}{Life-long training}{Orsys, France}{350~h}{In office / remote teaching}{
+   \textbullet\hspace{1em}Artificial intelligence and machine learning\\
+   \textbullet\hspace{1em}Convolutional neural networks (classification, segmentation, detection)\\
+   \textbullet\hspace{1em}Recurrent neural networks (denoising, prediction, natural language processing)\\
+   \textbullet\hspace{1em}Transformers (natural language processing, document clustering, transfer learning)\\
+   \textbullet\hspace{1em}Reinforcement learning (theory, (deep) Q-learning, policy iteration)\\
+   \textbullet\hspace{1em}Generative modeling (autoencoders, VAE, GAN)\\
+   \textbullet\hspace{1em}AI project management (schedules, deliverables, tools)\\
+}
+\vspace{-0.4cm}
+\cventry{2018--2019}{Data management for life sciences}{Université Montpellier II}{France}{30~h}{
+   \textbullet\hspace{1em}Data manipulation (python, pandas)\\
+   \textbullet\hspace{1em}Machine Learning (dimension reduction, scikit-learn)\\
+   \textbullet\hspace{1em}Data visualization (python, matplotlib, seaborn)}
+   {}
+
+\cventry{2011--2021}{Machine learning and signal processing}{Engineering schools}{}{300~h}{
+   \emph{Telecom Paris, Polytech Montpellier, EPITA, ESME Sudria, ISEP}\\
+   \textbullet\hspace{1em}Analog and digital signal processing (filtering, communications, denoising detection)\\
+   \textbullet\hspace{1em}Computer science (programmation, python, MATLAB, algorithms)\\
+   \textbullet\hspace{1em}Short-term research projects (signal processing, deep learning)}
+   {}
+\vspace{-0.1cm}
+\cventry{2014--2019}{Tutorials at international conferences}{}{}{}{
+   \textbullet\hspace{1em}EUSIPCO 2019. Good practices in deep learning for music demixing.\\
+   \textbullet\hspace{1em}ISMIR 2018. Deep learning for music processing.\\
+   \textbullet\hspace{1em}ICASSP 2014. Informed source separation}
+   {}
+
+\vspace{-0.1cm}
+\cventry{2015--2021}{Scientific outreach}{}{}{}{
+   \textbullet\hspace{1em}Fête de la science (music processing, audition preservation).\\
+   \textbullet\hspace{1em}Collèges et lycées (les mathématiques appliquées au traitement de la musique).\\
+   \textbullet\hspace{1em}Broad-audience papers (Interstices)}
+   {}
+   
+% SCIENTIFIC SERVICE
 \vspace{-0.3cm}
 \section{Scientific service}
-
-\cvitem{Commitees}
+\cvitem{Commitees and chairing}
 {\vspace{-0.4cm}\begin{itemize}
-\item[$\bullet~$]  IEEE Tech. Committee on Audio \& Acoustics (2016-2021)
-\item[$\bullet~$]  Separation Eval. Campaign (SiSEC) general chair (2016-2018)
+\item[$\bullet~$]  IEEE Technical Committee on Audio \& Acoustics. Elected member (2016-2021)
+\item[$\bullet~$]  Separation Evaluation Campaign (SiSEC). General chair (2016-2018)
+\item[$\bullet~$]  Program chair: DMX2021. Session chair: ICASSP, EUSIPCO, WASPAA, ...
 \end{itemize}}
 \vspace{-0.4cm}
 \cvitem{Reviewing}
 {\vspace{-0.4cm}\begin{itemize}
 \item[$\bullet~$] journals : \emph{SPL, TASLP, TSP, SPM, Elsevier SP, DSP, ...}
-\item[$\bullet~$] conferences: \emph{ICML, NeurIPS, ICASSP, ISMIR, WASPAA, ...}
+\item[$\bullet~$] conferences: \emph{ICML, NeurIPS, ICLR, ICASSP, ISMIR, WASPAA, EUSIPCO, ...}
+\item[$\bullet~$] grant agencies: France, Chile.
+\item[$\bullet~$] arxiv.org moderator for \texttt{eess.AS}
+\item[$\bullet~$] outstanding reviewer awards: IEEE, Neurips, ICML. Approx. 500 papers reviewed
 \end{itemize}}
-\vspace{-0.7cm}
+\vspace{-0.5cm}
+\cvitem{Ph.D. jurys}{Tom Barker (Tampere Univ., Finland). Gabriel Meseguer Brocal (IRCAM, Paris, France). Stylianos Mimilakis (Fraunhofer IDMT, Germany). Pritish Chandna~(UPF Barcelona, Spain). Ondrej Cifka (Telecom Paris, France).}
 
+\vspace{-0.1cm}
+\subsection{Students supervision}
+\cventry{2016--2019}{Ph.D. Mathieu Fontaine}{Alpha-stable models for signal processing.}
+{Defended}{}{Now assistant professor at Telecom Paris, France.}
+\cventry{2018}{Ph.D. Simon Leglaive}{Music processing}{Defended}{}{(co-supervision) Now assistant professor, Centrale-Supelec, France.}
+\cventry{2015--2017}{Ph.D. Aditya Arie Nugraha}{Deep learning for source separation.}
+{Defended}{}{Now a researcher for the University of Kyoto, Japan.}
+\cventry{2017}{Ph.D. Christian Rohlfing}{Informed source separation}{Defended}{}{(co-supervision) Now staff member RWTH, Aachen, Germany.}
+\cventry{2016}{Ph.D. Paul Magron}{Phase reconstruction for audio.}{Defended}{}{(co-supervision) Now permanent researcher at Inria, France.}
+\cventry{2007--}{Master of science internships}{1-6 months internship supervision.}{}{}{A dozen of students from Telecom Paris, Polytech Montpellier, Univ. Toulon, EPITA.}
+
+
+% EXTERNAL Funding
+\vspace{-0.3cm}
+\section{External Fundings}
+\cvitem{AI3P\\(2021--)}
+{Artificial intelligence for life sciences. \underline{Partner}. \emph{MUSE (\textbf{260k€})}
+\begin{itemize}
+\item[$\bullet~$] \emph{Artificial intelligence to predict plant genes regulatory networks} 
+\item[$\bullet~$] \emph{My contribution:} machine learning and deep learning for causal inference.
+\end{itemize}}
+
+\vspace{-0.5cm}
+\cvitem{REPOS\\(2021--)}
+{Repos animal en milieu anthropisé. \underline{Partner}. \emph{MUSE (\textbf{390k€})}
+\begin{itemize}
+\item[$\bullet~$] \emph{Human impact on animal behaviours.} 
+\item[$\bullet~$] \emph{My contribution:} Audio processing for logging animal activity. Data analysis. 
+\end{itemize}}
+
+\vspace{-0.5cm}
+\cvitem{multiNODE\\(2021--)}
+{Deep models of animal dynamic behaviour. \underline{Principal Investigator}. \emph{MUSE (\textbf{100k€})}
+\begin{itemize}
+\item[$\bullet~$] \emph{Large-scale analysis of animal tracking data.} 
+\item[$\bullet~$] \emph{Deep learning models for cross-modal dynamic data.} 
+\end{itemize}}
+
+\vspace{-0.5cm}
+\cvitem{ADSIL\\(2020--)}
+{Écoute intelligente sous-marine avancée. \underline{Partner}. \emph{ANR (\textbf{570k€})}
+\begin{itemize}
+\item[$\bullet~$] \emph{Systems and methods for subaquatic acoustics applied to animal tracking.} 
+\item[$\bullet~$] \emph{My contribution:} deep learning for denoising and modeling dynamic data. 
+\end{itemize}}
+
+\vspace{-0.5cm}\cvitem{KAMoulox\\(2016-2020)}
+{Online unmixing of large historical archives. \underline{Principal investigator}. \emph{ANR (\textbf{280k€})}
+\begin{itemize}
+\item[$\bullet~$] Track \emph{Le numérique au service des arts, du patrimoine, des industries culturelles}
+\item[$\bullet~$] \emph{Audio machine learning for cultural heritage preservation and re-purposing} 
+\item[$\bullet~$] \emph{1 PhD. 2 postdocs. 6 journals, 2 book chapters, 22 conferences.} 
+\end{itemize}}
+\vspace{-0.5cm}\cvitem{}
+{Complementary funding: science for cultural heritage.
+\begin{itemize}
+\item[$\bullet~$] \emph{Région Lorraine (\textbf{50k€}): 1 postdoc for 6 months.} 
+\end{itemize}}
+
+\vspace{-0.4cm}
+\cvitem{Industry\\(2020-2021)}
+{\textbf{Industrial transfer}. I was managing the transfer of music processing technology to
+companies in Europe and in the USA, for a total of several hundreds
+of thousands euros. Everything about these is confidential and ruled
+by non­disclosure agreements.}
+
+% Collaborations and research network
+\vspace{-0.3cm}
+\section{Main interdisciplinary collaborators}
+My research interests lie in probabilistic modeling for multivariate time series, with a broad spectrum of applications. Below is a short sorted selection of my collaborators.
+My contribution in these collaborations is almost always theoretical, regarding  advances in machine learning and signal processing, but also experimental when it comes to implementating the proposed algorithms.\\  
+
+\vspace{-0.2cm}
+\cvitem{\textbf{genomics}\\(2020-)}
+{Machine learning for causal inference in gene regulatory networks\begin{itemize}
+\item[$\bullet~$] \emph{Gabriel Krouk. B\&PMP Lab, Montpellier, France}
+\item[$\bullet~$] \emph{André Mas. IMAG. Montpellier, France}
+\end{itemize}}
+\vspace{-0.6cm}
+\cvitem{\textbf{synthesis}\\(2019-)}
+{Machine learning models for generative modeling and music synthesis\begin{itemize}
+\item[$\bullet~$] \emph{Umut Simsekli, Gaël Richard. Telecom Paris, France}
+\item[$\bullet~$] \emph{Yi-Hsuan Yang, Academia Sinica, Taiwan}
+\end{itemize}}
+\vspace{-0.6cm}
+\cvitem{\textbf{movements}\\(2013-)}
+{Multivariate dynamical models for irregularly-sampled time series\begin{itemize}
+\item[$\bullet~$] \emph{Hervé Glotin. LIS, CNRS, Toulon, France}
+\item[$\bullet~$] \emph{Simon Chamaille-Jammes. CEFE, CNRS, Montpellier, France}
+\end{itemize}}
+\vspace{-0.6cm}
+\cvitem{\textbf{speech}\\(2015-2019)}
+{Stochastic processes and deep learning for speech denoising\begin{itemize}
+   \item[$\bullet~$] \emph{Laurent Girin. GIPSA lab, Grenoble, France}
+   \item[$\bullet~$] \emph{Emmanuel Vincent. LORIA, Inria, Nancy, France}
+\item[$\bullet~$] \emph{Kazuyoshi Yoshii. Univ. Kyoto, Japan}
+\item[$\bullet~$] \emph{Roland Badeau \& Gaël Richard. Telecom Paris, France}
+\end{itemize}}
+\vspace{-0.6cm}
+\cvitem{\textbf{reproducibility}\\(2017-)}
+{World-class datasets and open-source reference implementations\begin{itemize}
+\item[$\bullet~$] \emph{Fabian-Robert Stöter. Audioshake, USA}
+\item[$\bullet~$] \emph{Yuki Mitsufuji. Sony, Japan}
+\item[$\bullet~$] \emph{Zafar Rafii. Gracenote, USA}
+\end{itemize}}
+\vspace{-0.6cm}
+\cvitem{\textbf{outreach}\\(2018-)}
+{Pedagogical content regarding music processing\begin{itemize}
+\item[$\bullet~$] \emph{Fabian-Robert Stöter. Audioshake, USA}
+\item[$\bullet~$] \emph{Bryan Pardo. Northwestern univ. USA}
+\end{itemize}}
+\vspace{-0.5cm}
+\cvitem{\textbf{optics}\\(2014-2015)}
+{Machine learning and compressed sensing for optical computing\begin{itemize}
+\item[$\bullet~$] \emph{Laurent Daudet. lighton.io, France}
+\end{itemize}}
+\vspace{-0.4cm}
+\cvitem{\textbf{brainwaves}\\(2013)}
+{Evoked potential extraction and EEG denoising\begin{itemize}
+\item[$\bullet~$] \emph{Slim Essid \& Alexandre Gramfort. Telecom Paris, France}
+\end{itemize}}
+\vspace{-0.4cm}
+\cvitem{\textbf{separation}\\(2007-)}
+{Probabilistic and deep models for source separation and music demixing \begin{itemize}
+\item[$\bullet~$] \emph{Roland Badeau \& Gaël Richard. Telecom Paris, France}
+\item[$\bullet~$] \emph{Zafar Rafii, Gracenote, USA}
+\item[$\bullet~$] \emph{Fabian-Robert Stöter, Audioshake, USA}
+\item[$\bullet~$] \emph{Derry Fitzgerald, AudiosourceRE, Ireland}
+\end{itemize}}
+\vspace{-0.4cm}
+\cvitem{\textbf{coding}\\(2010-2017)}
+{Probabilistic models for effective coding of multivariate audio \begin{itemize}
+\item[$\bullet~$] \emph{Alexey Ozerov, Technicolor Rennes, France}
+\item[$\bullet~$] \emph{Gaël Richard and Roland Badeau, Telecom Paris, France}
+\end{itemize}}
+
+
+
+\vspace{-0.6cm}
+\section{Publications}
+As of October 2021:
+
+\begin{itemize}
+   \item[$\bullet~$] I am the author of \textbf{15 journal papers, 60 conference papers, 4 books chapters and 3 patents.}
+   \item[$\bullet~$] An updated list of my publications can be found on my Google scholar webpage \href{https://scholar.google.fr/citations?hl=fr&user=0s7V4FAAAAAJ}{\includegraphics[width=13pt]{linksolid.png}}
+   \item[$\bullet~$] My work has been cited 3314 times and my \textbf{H-index is 31}.
+\end{itemize}
+
+\newpage
+% RESEARCH INTERESTS
+\vspace{-0.3cm}
+\section{Research interests}
+\cvitem{\textbf{probability theory}}
+{Bayesian probabilistic modelling applied to multivariate time series\begin{itemize}
+\item[$\bullet~$] \emph{Gaussian and $\alpha$-stable processes, multivariate and irregularly sampled time series}
+\item[$\bullet~$] \emph{Additive modeling and separation of latent variables}
+\item[$\bullet~$] \emph{Locally-stationary signals, multivariate dependence structures}
+\item[$\bullet~$] \emph{Maximum likelihood and a posteriori parameter estimation.}
+\item[$\bullet~$] \emph{Sketching and moment matching.} 
+\item[$\bullet~$] \emph{Local regression, kernel regression, non-parametric and robust models.} 
+\item[$\bullet~$] \emph{Theory of denoising, regression and forecasting} 
+\end{itemize}}
+
+\vspace{-0.6cm}
+\cvitem{\textbf{deep learning}}
+{Theory and practice of state of the art deep modelling\begin{itemize}
+\item[$\bullet~$] \emph{Recurrent models: RNN, LSTM, Transformers for multivariate time series}
+\item[$\bullet~$] \emph{Theory of dynamical modelling with deep learning. Current challenges.}
+\item[$\bullet~$] \emph{Deep diffusion models: neural generative models, neural ODE}
+\item[$\bullet~$] \emph{Convolutional models, image processing.}
+\item[$\bullet~$] \emph{Implementation and software engineering.} 
+\end{itemize}}
+
+\vspace{-0.6cm}
+\cvitem{\textbf{data mining}}
+{Factorization methods for dimension reduction and factor analysis\begin{itemize}
+\item[$\bullet~$] \emph{Randomized and fast methods for matrix/tensor factorization}
+\item[$\bullet~$] \emph{The case of count and nonnegative data: NMF, NTF}
+\item[$\bullet~$] \emph{Missing data / data with outliers. Cauchy and Levy NMF/NTF.}
+\item[$\bullet~$] \emph{Applications to life sciences}
+\end{itemize}}
+
+
+\vspace{-0.6cm}
+\cvitem{\textbf{music}}
+{Machine learning for immaterial heritage preservation and valorization\begin{itemize}
+\item[$\bullet~$] \emph{Music valorization, demixing, repurposing, denoising}
+\item[$\bullet~$] \emph{Music information retrieval}
+\item[$\bullet~$] \emph{Applications to scientific outreach of mathematics}
+\item[$\bullet~$] \emph{Applications to learning and practicing music}
+\end{itemize}}
+
+\section{Miscellaneous}
+\vspace{-0.1cm}
+\cvitem{languages}
+{\begin{itemize}
+   \item[$\bullet~$] French: \emph{native}
+   \item[$\bullet~$] English: \emph{fluent}
+   \item[$\bullet~$] Luxembourgish: \emph{good understanding + learning to talk}
+   \item[$\bullet~$] Spanish: \emph{conversational}
+   \item[$\bullet~$] German: \emph{school-level. Understanding. Not practiced much.}
+\end{itemize}}
+
+\vspace{-0.1cm}
+\cvitem{computing languages}
+{Strong expertise in Python and MATLAB\begin{itemize}
+   \item[$\bullet~$] \emph{Established skills in scikit-learn, numpy, pytorch, pandas, etc.}
+   \item[$\bullet~$] \emph{Influencial github repositories (several thousands stars)}
+   \item[$\bullet~$] \emph{25+ years of experience in programming.}
+\end{itemize}}
+
+\cvitem{personal interests}
+{When I do not work or read about machine learning, I spend time with my (Luxembourgish) wife and our three kids. I also love music, travelling and gardening.}
 
 \end{document}
